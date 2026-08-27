@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "code_debug_001",
+    "category": "coding",
+    "subcategory": "debugging",
+    "text": "You are an expert software engineer. I will give you a code snippet and an error message. Explain the root cause of the error in plain language, then provide a corrected version of the code with inline comments explaining each fix. Do not rewrite unrelated parts of the code.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5",
+      "deepseek-coder-v3"
+    ]
+  },
+  {
+    "id": "code_review_001",
+    "category": "coding",
+    "subcategory": "code_review",
+    "text": "Act as a senior code reviewer. Review the following code for correctness, performance, security vulnerabilities, and readability. Organize feedback into three sections: Critical Issues, Suggestions, and Nitpicks. For each issue, quote the relevant line and explain why it matters.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5",
+      "gemini-2-5-pro"
+    ]
+  },
+  {
+    "id": "code_generate_001",
+    "category": "coding",
+    "subcategory": "generation",
+    "text": "Write production-quality code to accomplish the following task. Include error handling, type hints/annotations where applicable, and a brief docstring for each function. After the code, list any assumptions you made and edge cases not handled.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5",
+      "deepseek-coder-v3"
+    ]
+  },
+  {
+    "id": "code_explain_001",
+    "category": "coding",
+    "subcategory": "explanation",
+    "text": "Explain what the following code does, step by step, as if teaching a junior developer. Use plain language first, then walk through the logic line by line. Point out any non-obvious behavior or potential bugs.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini",
+      "gemini-2-5-flash"
+    ]
+  },
+  {
+    "id": "code_refactor_001",
+    "category": "coding",
+    "subcategory": "refactoring",
+    "text": "Refactor the following code to improve readability, reduce duplication, and follow best practices for the language, without changing its external behavior. Explain each change and why it improves the code.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "code_test_001",
+    "category": "coding",
+    "subcategory": "unit_testing",
+    "text": "Write unit tests for the following function, covering typical cases, edge cases, and invalid input. Use the standard testing framework for the language and explain what each test verifies.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "code_optimize_001",
+    "category": "coding",
+    "subcategory": "performance",
+    "text": "Analyze the following code for performance bottlenecks. Identify the time and space complexity of the current implementation, then propose an optimized version with its improved complexity stated explicitly.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "code_architecture_001",
+    "category": "coding",
+    "subcategory": "system_design",
+    "text": "Design a system architecture for the following requirements. Include the main components, how they communicate, data storage choices, and key tradeoffs. Present as a labeled diagram description plus a short written rationale.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5",
+      "gemini-2-5-pro"
+    ]
+  },
+  {
+    "id": "code_sql_001",
+    "category": "coding",
+    "subcategory": "sql_query",
+    "text": "Write a SQL query to solve the following task. Use clear table aliases, add comments for any non-obvious joins or subqueries, and note any indexing that would improve performance at scale.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "code_regex_001",
+    "category": "coding",
+    "subcategory": "regex",
+    "text": "Write a regular expression that matches the following pattern description. Explain each part of the regex, and provide 3 example strings that match and 2 that should not.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "writing_blog_001",
+    "category": "writing",
+    "subcategory": "blog_post",
+    "text": "Write a blog post on the given topic for a [target audience] audience. Open with a hook that states the core problem or curiosity gap. Use short paragraphs, subheadings, and one concrete example or story. End with a clear takeaway, not a generic summary.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5",
+      "gemini-2-5-pro"
+    ]
+  },
+  {
+    "id": "writing_email_001",
+    "category": "writing",
+    "subcategory": "professional_email",
+    "text": "Draft a professional email for the following situation. Be concise, state the purpose in the first sentence, and end with a clear, specific call to action. Match the tone to the relationship described (formal, friendly, or urgent).",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "writing_story_001",
+    "category": "writing",
+    "subcategory": "creative_fiction",
+    "text": "Write a short story based on the given premise. Focus on showing emotion through action and dialogue rather than telling. Establish a clear point of view and keep a consistent tone throughout. Avoid cliche phrasing and predictable endings.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "writing_summarize_001",
+    "category": "writing",
+    "subcategory": "summarization",
+    "text": "Summarize the following text in [N] sentences, preserving the key arguments and any numbers or names that are central to the meaning. Do not add interpretation or opinion. Write in neutral, third-person language.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gemini-2-5-flash",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "writing_essay_001",
+    "category": "writing",
+    "subcategory": "essay",
+    "text": "Write a structured essay on the given topic with a clear thesis statement in the introduction, three body paragraphs each supporting the thesis with evidence or reasoning, and a conclusion that reinforces the argument without merely repeating it.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "writing_speech_001",
+    "category": "writing",
+    "subcategory": "speech",
+    "text": "Write a speech for the following occasion and audience. Open with something that earns attention in the first 10 seconds, use rhythm and repetition sparingly for emphasis, and close with a memorable final line. Keep sentences short enough to be spoken naturally.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "writing_rewrite_tone_001",
+    "category": "writing",
+    "subcategory": "tone_rewrite",
+    "text": "Rewrite the following text in a [target tone: formal / casual / persuasive / empathetic] tone, keeping the same core meaning and length roughly the same. Do not add new information.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "writing_proofread_001",
+    "category": "writing",
+    "subcategory": "proofreading",
+    "text": "Proofread the following text for grammar, punctuation, and clarity errors. Return a corrected version, then list each change made and why, without altering the author's voice or intent.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini",
+      "gemini-2-5-flash"
+    ]
+  },
+  {
+    "id": "writing_outline_001",
+    "category": "writing",
+    "subcategory": "outlining",
+    "text": "Create a detailed outline for a piece of writing on the given topic. Include a working title, section headers, and 2-3 bullet points of what each section should cover. Do not write the full content yet.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "analysis_data_001",
+    "category": "analysis",
+    "subcategory": "data_analysis",
+    "text": "You are a data analyst. Given the dataset described below, identify the top 3 trends or anomalies, explain why they matter for the business, and suggest one concrete action for each. Present findings in a short table followed by plain-language explanation.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8",
+      "gemini-2-5-pro"
+    ]
+  },
+  {
+    "id": "analysis_compare_001",
+    "category": "analysis",
+    "subcategory": "comparison",
+    "text": "Compare the following options across cost, performance, ease of use, and long-term risk. Present as a table, then give a one-paragraph recommendation stating which option fits which use case, with your reasoning made explicit.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "analysis_swot_001",
+    "category": "analysis",
+    "subcategory": "swot",
+    "text": "Conduct a SWOT analysis for the given business, product, or decision. Provide at least 3 points under each category (Strengths, Weaknesses, Opportunities, Threats), grounded in specifics rather than generic statements.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "analysis_root_cause_001",
+    "category": "analysis",
+    "subcategory": "root_cause",
+    "text": "Perform a root cause analysis on the following problem. Use a structured method (e.g. 5 Whys) to trace the issue back to its underlying cause rather than stopping at the first symptom. Present the chain of reasoning clearly.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "analysis_risk_001",
+    "category": "analysis",
+    "subcategory": "risk_assessment",
+    "text": "Assess the risks associated with the following plan or decision. List each risk with its likelihood, potential impact, and a mitigation strategy. Rank risks from most to least critical.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "research_deep_001",
+    "category": "research",
+    "subcategory": "deep_research",
+    "text": "Research the following topic thoroughly using multiple credible sources. Present findings organized by subtopic, cite sources inline, and flag any claims where sources disagree. End with open questions that would need further investigation.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8",
+      "perplexity-sonar-pro"
+    ]
+  },
+  {
+    "id": "research_factcheck_001",
+    "category": "research",
+    "subcategory": "fact_checking",
+    "text": "Fact-check the following claim. State whether it is true, false, or partially true/misleading, and explain why with reference to verifiable evidence. Avoid speculation where evidence is inconclusive.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5",
+      "perplexity-sonar-pro"
+    ]
+  },
+  {
+    "id": "research_literature_001",
+    "category": "research",
+    "subcategory": "literature_review",
+    "text": "Summarize the current state of research on the given topic. Group findings by theme or perspective, note where there is scientific consensus versus ongoing debate, and identify gaps that remain unanswered.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5",
+      "perplexity-sonar-pro"
+    ]
+  },
+  {
+    "id": "research_market_001",
+    "category": "research",
+    "subcategory": "market_research",
+    "text": "Research the market for the given product or industry. Cover market size, key competitors, target customer segments, and current trends. Present as organized sections with the most important findings highlighted first.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8",
+      "perplexity-sonar-pro"
+    ]
+  },
+  {
+    "id": "image_photoreal_001",
+    "category": "image_generation",
+    "subcategory": "photorealistic",
+    "text": "Generate a photorealistic image of [subject], in [setting], with [lighting condition] lighting, shot on [camera/lens style] for a natural depth of field. Avoid cartoonish or airbrushed rendering.",
+    "best_models": [
+      "midjourney-v7",
+      "flux-1-1-pro",
+      "dalle-4"
+    ]
+  },
+  {
+    "id": "image_illustration_001",
+    "category": "image_generation",
+    "subcategory": "illustration",
+    "text": "Create a flat, minimal illustration of [subject] in a limited color palette of [colors], suitable for a modern tech brand. Clean vector-style lines, no gradients, no text in the image.",
+    "best_models": [
+      "midjourney-v7",
+      "ideogram-v3",
+      "flux-1-1-pro"
+    ]
+  },
+  {
+    "id": "image_logo_001",
+    "category": "image_generation",
+    "subcategory": "logo",
+    "text": "Design a simple, memorable logo concept for [brand name], a company in the [industry] space. Keep it minimal, scalable to small sizes, and appropriate for the brand tone of [tone: playful / premium / trustworthy].",
+    "best_models": [
+      "ideogram-v3",
+      "midjourney-v7"
+    ]
+  },
+  {
+    "id": "image_product_001",
+    "category": "image_generation",
+    "subcategory": "product_shot",
+    "text": "Generate a clean product photography shot of [product] on a [background description] background, with soft studio lighting and a subtle shadow, suitable for an e-commerce listing.",
+    "best_models": [
+      "flux-1-1-pro",
+      "dalle-4"
+    ]
+  },
+  {
+    "id": "marketing_ad_copy_001",
+    "category": "marketing",
+    "subcategory": "ad_copy",
+    "text": "Write 5 short ad copy variations for [product] targeting [audience]. Each should lead with a different angle (pain point, benefit, social proof, urgency, curiosity). Keep each under 25 words and end with a clear CTA.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "marketing_positioning_001",
+    "category": "marketing",
+    "subcategory": "positioning",
+    "text": "Help me define positioning for [product/company]. Identify the target customer, the core problem solved, the top 2 competitors and how we differ, and a one-sentence positioning statement in the format: For [audience], [product] is the [category] that [benefit], unlike [competitor].",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "marketing_landing_page_001",
+    "category": "marketing",
+    "subcategory": "landing_page_copy",
+    "text": "Write landing page copy for [product]. Include a headline, subheadline, 3 benefit-focused sections each with a short header and 1-2 sentences, and a closing CTA section. Focus on outcomes for the customer, not just features.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "marketing_email_campaign_001",
+    "category": "marketing",
+    "subcategory": "email_campaign",
+    "text": "Write a 3-email nurture sequence for [product/goal]. Email 1 should build trust or educate, email 2 should address a common objection, email 3 should drive to a clear action. Keep each email under 150 words with a single CTA.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "marketing_seo_001",
+    "category": "marketing",
+    "subcategory": "seo",
+    "text": "Suggest an SEO content strategy for the target keyword [keyword]. Include search intent analysis, 5 related long-tail keywords, a recommended article structure, and a meta title and description under the standard character limits.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "math_solve_001",
+    "category": "math_reasoning",
+    "subcategory": "problem_solving",
+    "text": "Solve the following problem step by step, showing all working. State any assumptions explicitly. After solving, verify the answer by checking it against the original conditions of the problem.",
+    "best_models": [
+      "gpt-5",
+      "gemini-2-5-pro",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "math_proof_001",
+    "category": "math_reasoning",
+    "subcategory": "proof",
+    "text": "Prove the following mathematical statement rigorously. State the proof technique used (direct, contradiction, induction, etc.) up front, and justify each logical step explicitly rather than skipping to conclusions.",
+    "best_models": [
+      "gpt-5",
+      "gemini-2-5-pro"
+    ]
+  },
+  {
+    "id": "math_stats_001",
+    "category": "math_reasoning",
+    "subcategory": "statistics",
+    "text": "Given the following data or scenario, determine the appropriate statistical test or method to use, explain why it fits, perform the calculation, and interpret the result in plain language including its practical significance.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "translation_001",
+    "category": "translation",
+    "subcategory": "general",
+    "text": "Translate the following text into [target language]. Preserve tone and register (formal/informal). Where a phrase has no direct equivalent, choose the closest natural expression rather than a literal translation, and note it in brackets.",
+    "best_models": [
+      "gpt-5",
+      "gemini-2-5-pro",
+      "deepl-next"
+    ]
+  },
+  {
+    "id": "translation_technical_001",
+    "category": "translation",
+    "subcategory": "technical",
+    "text": "Translate the following technical document into [target language], preserving all technical terminology accurately. Flag any terms that do not have a standard translation in the target language and explain your choice.",
+    "best_models": [
+      "deepl-next",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "resume_review_001",
+    "category": "career",
+    "subcategory": "resume_review",
+    "text": "Review the following resume for a [target role] position. Identify weak or vague bullet points and rewrite them using strong action verbs and quantifiable impact. Flag any formatting or structure issues. Keep feedback specific and actionable.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "interview_prep_001",
+    "category": "career",
+    "subcategory": "interview_prep",
+    "text": "Act as an interviewer for a [role] position at a [company type] company. Ask me one behavioral or technical question at a time, wait for my answer, then give brief feedback before the next question. Focus on [specific skill area].",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "cover_letter_001",
+    "category": "career",
+    "subcategory": "cover_letter",
+    "text": "Write a cover letter for a [role] position at [company], based on the resume and job description provided. Open with a specific, non-generic hook, connect 2-3 concrete experiences to the role's requirements, and close with a confident but not arrogant call to action.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "career_negotiation_001",
+    "category": "career",
+    "subcategory": "salary_negotiation",
+    "text": "Help me prepare to negotiate my salary/offer. Given my current offer and market context, suggest a target range, a script for opening the conversation, and responses to 2 likely pushback scenarios from the employer.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "legal_contract_review_001",
+    "category": "legal",
+    "subcategory": "contract_review",
+    "text": "Review the following contract clause and explain what it means in plain language, who it favors, and what risks it poses to each party. Do not provide formal legal advice; frame this as general informational analysis only.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "legal_summarize_001",
+    "category": "legal",
+    "subcategory": "document_summary",
+    "text": "Summarize the following legal document in plain language for a non-lawyer. Highlight the key obligations, deadlines, and any unusual or high-risk clauses. Note that this is not a substitute for professional legal review.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "legal_policy_draft_001",
+    "category": "legal",
+    "subcategory": "policy_drafting",
+    "text": "Draft a [policy type, e.g. privacy policy / terms of service] section covering [topic]. Use clear, unambiguous language appropriate for a general audience while covering the necessary legal points. Flag sections that should be reviewed by a licensed attorney.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "health_explain_001",
+    "category": "healthcare",
+    "subcategory": "medical_explanation",
+    "text": "Explain the following medical term or condition in plain language suitable for a patient with no medical background. Cover what it is, common causes, and typical management approaches. Make clear this is general information, not a diagnosis or treatment plan.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "health_symptom_summary_001",
+    "category": "healthcare",
+    "subcategory": "symptom_organization",
+    "text": "Help me organize the following symptoms and their timeline into a clear summary I can bring to a doctor's appointment. Group related symptoms, note onset and duration, and list questions I should ask. This is for preparation only, not diagnosis.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "finance_budget_001",
+    "category": "finance",
+    "subcategory": "personal_budgeting",
+    "text": "Given my income and expenses listed below, create a monthly budget plan. Categorize spending, flag areas that are unusually high relative to typical benchmarks, and suggest 2-3 concrete ways to reduce costs without drastically changing lifestyle.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "finance_analysis_001",
+    "category": "finance",
+    "subcategory": "financial_statement_analysis",
+    "text": "Analyze the following financial statement. Calculate key ratios (liquidity, profitability, leverage), explain what each indicates about the company's health, and note any red flags. This is educational analysis, not investment advice.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "finance_investment_explain_001",
+    "category": "finance",
+    "subcategory": "concept_explanation",
+    "text": "Explain the following investment concept or instrument in plain language, including how it works, typical risks, and who it's generally suited for. Present balanced information, not a recommendation to buy or sell.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "social_twitter_thread_001",
+    "category": "social_media",
+    "subcategory": "twitter_thread",
+    "text": "Write a Twitter/X thread on the given topic. Start with a hook tweet that creates curiosity or states a bold claim, follow with 5-8 tweets each making one clear point, and end with a summary or call to action tweet.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "social_linkedin_post_001",
+    "category": "social_media",
+    "subcategory": "linkedin_post",
+    "text": "Write a LinkedIn post on the given topic in a professional but personable tone. Open with a strong first line since it's the only part shown before 'see more', use short paragraphs and line breaks for readability, and end with a question or takeaway that invites engagement.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "social_instagram_caption_001",
+    "category": "social_media",
+    "subcategory": "instagram_caption",
+    "text": "Write an Instagram caption for the given image/post concept. Keep the first line attention-grabbing since it's what shows before truncation, match the tone to the brand voice described, and include a natural (not forced) call to action.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "social_community_response_001",
+    "category": "social_media",
+    "subcategory": "comment_response",
+    "text": "Draft a response to the following comment or review. Match the tone to the situation (address complaints with empathy and a resolution path, thank positive feedback genuinely without sounding scripted). Keep it concise and human.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "video_script_001",
+    "category": "video_script",
+    "subcategory": "short_form",
+    "text": "Write a script for a short-form video (under 60 seconds) on the given topic. Structure it as: hook (first 3 seconds), core content broken into quick beats, and a closing line with a call to action. Write for spoken delivery, not reading.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "video_script_long_001",
+    "category": "video_script",
+    "subcategory": "long_form",
+    "text": "Write a script outline for a long-form video (5-15 minutes) on the given topic. Include an intro hook, 3-5 main sections with a one-line summary of each, and a closing section with a call to action. Note where visuals or b-roll would support the narration.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "video_youtube_title_001",
+    "category": "video_script",
+    "subcategory": "title_thumbnail",
+    "text": "Suggest 5 YouTube title options for a video about the given topic, optimized for click-through without being misleading clickbait. For each, note the psychological hook it uses (curiosity, benefit, number, controversy, etc.).",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "presentation_outline_001",
+    "category": "presentations",
+    "subcategory": "deck_outline",
+    "text": "Create a slide-by-slide outline for a presentation on the given topic for [audience]. For each slide, give a short title and 2-3 bullet points of content, plus a note on what visual would support it. Aim for [N] slides total.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "presentation_pitch_001",
+    "category": "presentations",
+    "subcategory": "pitch_deck",
+    "text": "Outline a pitch deck for [startup/product idea]. Cover: problem, solution, market size, business model, competitive advantage, traction (if any), and the ask. Keep each slide's content to what could realistically fit on one slide.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "presentation_speaker_notes_001",
+    "category": "presentations",
+    "subcategory": "speaker_notes",
+    "text": "Write speaker notes for the following slide content. Notes should sound natural when spoken aloud, expand on the bullet points without just reading them verbatim, and include a natural transition line to the next slide.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "education_lesson_plan_001",
+    "category": "education",
+    "subcategory": "lesson_plan",
+    "text": "Create a lesson plan for teaching [topic] to [grade level/audience]. Include a learning objective, a short warm-up activity, the main teaching content broken into steps, and a way to check understanding at the end.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "education_explain_simple_001",
+    "category": "education",
+    "subcategory": "eli5",
+    "text": "Explain the following concept as if to a curious beginner with no background in the subject. Use a simple analogy to build intuition first, then introduce the correct terminology, being careful not to oversimplify to the point of inaccuracy.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5",
+      "gemini-2-5-flash"
+    ]
+  },
+  {
+    "id": "education_quiz_001",
+    "category": "education",
+    "subcategory": "quiz_generation",
+    "text": "Create a [N]-question quiz on the given topic to test understanding at [difficulty level]. Include a mix of question types, provide the correct answer for each, and a one-sentence explanation of why it's correct.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "support_response_001",
+    "category": "customer_support",
+    "subcategory": "ticket_response",
+    "text": "Write a response to the following customer support ticket. Acknowledge the issue clearly, avoid corporate jargon, provide a concrete next step or resolution, and keep the tone warm but professional. If the issue can't be resolved immediately, explain what happens next.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "support_faq_001",
+    "category": "customer_support",
+    "subcategory": "faq_writing",
+    "text": "Write an FAQ entry answering the following customer question. Lead with the direct answer in the first sentence, then add necessary context or steps. Avoid unnecessary caveats that make the answer harder to act on.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "support_escalation_001",
+    "category": "customer_support",
+    "subcategory": "internal_escalation",
+    "text": "Draft an internal escalation summary for the following customer issue, to be handed to a specialist team. Include what the customer reported, what's been tried already, the customer's current emotional state/urgency, and what specifically is needed from the next team.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "product_brief_001",
+    "category": "product_management",
+    "subcategory": "feature_brief",
+    "text": "Write a product brief for the following feature idea. Include the problem it solves, the target user, proposed solution at a high level, success metrics, and open questions or risks that need resolving before build.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "product_user_story_001",
+    "category": "product_management",
+    "subcategory": "user_stories",
+    "text": "Convert the following feature description into user stories in the format: As a [user type], I want [goal], so that [benefit]. Include acceptance criteria for each story as a short checklist.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "product_prioritization_001",
+    "category": "product_management",
+    "subcategory": "prioritization",
+    "text": "Help me prioritize the following list of features or initiatives. Score each on impact and effort, place them conceptually on an impact/effort matrix, and recommend an order to tackle them with brief reasoning.",
+    "best_models": [
+      "gpt-5",
+      "claude-opus-4-8"
+    ]
+  },
+  {
+    "id": "brainstorm_general_001",
+    "category": "brainstorming",
+    "subcategory": "idea_generation",
+    "text": "Generate [N] distinct ideas for the given prompt or challenge. Push for genuine variety rather than minor variations of the same idea. For each idea, add one sentence on why it could work and one on its biggest risk.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "brainstorm_naming_001",
+    "category": "brainstorming",
+    "subcategory": "naming",
+    "text": "Suggest [N] name options for [product/company/project]. Aim for a mix of styles (descriptive, evocative, invented word). For each, note availability considerations to check (domain, trademark) and a one-line reason it fits the brand.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "decision_framework_001",
+    "category": "decision_making",
+    "subcategory": "structured_decision",
+    "text": "Help me think through the following decision using a structured framework. List the key factors that matter, weigh them by importance, evaluate each option against them, and state which option comes out ahead and why, while noting where the decision is close.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "decision_pros_cons_001",
+    "category": "decision_making",
+    "subcategory": "pros_cons",
+    "text": "Lay out a clear pros and cons list for the following decision. Go beyond the obvious points to include second-order effects. Do not just list items; briefly explain why each pro or con matters in this specific situation.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "meeting_notes_001",
+    "category": "productivity",
+    "subcategory": "meeting_summary",
+    "text": "Summarize the following meeting transcript or notes into: key decisions made, action items with owners if mentioned, and open questions still unresolved. Keep it scannable, not a narrative retelling.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini",
+      "gemini-2-5-flash"
+    ]
+  },
+  {
+    "id": "productivity_prioritize_001",
+    "category": "productivity",
+    "subcategory": "task_prioritization",
+    "text": "Given the following list of tasks, help me prioritize them for today/this week. Consider urgency, importance, and dependencies between tasks. Group into a suggested order and flag anything that seems like it could be delegated or dropped.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "negotiation_prep_001",
+    "category": "negotiation",
+    "subcategory": "general_negotiation",
+    "text": "Help me prepare for the following negotiation. Identify my likely BATNA (best alternative to a negotiated agreement), the other party's likely interests and constraints, an opening position, and 2 fallback positions if the first doesn't land.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "personal_travel_plan_001",
+    "category": "travel",
+    "subcategory": "itinerary_planning",
+    "text": "Create a [N]-day travel itinerary for [destination] based on the interests described. Balance must-see highlights with a realistic pace, group activities by geographic proximity to minimize backtracking, and note any bookings that typically require advance reservation.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "recipe_generate_001",
+    "category": "cooking",
+    "subcategory": "recipe_creation",
+    "text": "Create a recipe using the following ingredients/constraints. Include ingredient list with quantities, numbered steps, approximate prep and cook time, and one suggestion for a substitution if a key ingredient is unavailable.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "fitness_plan_001",
+    "category": "fitness",
+    "subcategory": "workout_plan",
+    "text": "Create a workout plan based on the following goals, experience level, and available equipment. Structure it by week, specify sets/reps or duration for each exercise, and include guidance on progression over time. Note this is general guidance, not personalized medical advice.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "hr_job_description_001",
+    "category": "hr",
+    "subcategory": "job_description",
+    "text": "Write a job description for a [role] position. Include a short company/team intro, key responsibilities, required vs. preferred qualifications, and language reviewed for inclusivity (avoid unnecessarily gendered or exclusionary phrasing).",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "hr_performance_review_001",
+    "category": "hr",
+    "subcategory": "performance_review",
+    "text": "Help me write a performance review for a team member based on the notes provided. Balance strengths and areas for growth, use specific examples rather than generalizations, and phrase constructive feedback in a way that's clear but not discouraging.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "event_planning_001",
+    "category": "event_planning",
+    "subcategory": "event_checklist",
+    "text": "Create a planning checklist and timeline for organizing [event type] with [N] expected attendees, working backward from the event date. Group tasks by category (venue, catering, logistics, promotion) and flag which items have the longest lead times.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "customer_persona_001",
+    "category": "marketing",
+    "subcategory": "buyer_persona",
+    "text": "Create a buyer persona for [product/service] based on the target market described. Include demographics, goals, pain points, objections to purchasing, and where they typically look for solutions like this.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "pr_press_release_001",
+    "category": "pr_communications",
+    "subcategory": "press_release",
+    "text": "Write a press release announcing [news/product/event]. Follow standard press release structure: headline, dateline, lead paragraph covering the who/what/when/where/why, supporting quotes, and boilerplate company description at the end.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "crisis_comms_001",
+    "category": "pr_communications",
+    "subcategory": "crisis_response",
+    "text": "Draft a public statement responding to the following situation. Acknowledge the issue directly without deflecting, avoid corporate-speak that reads as evasive, state concrete next steps being taken, and keep the tone accountable rather than defensive.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "technical_docs_001",
+    "category": "technical_writing",
+    "subcategory": "documentation",
+    "text": "Write technical documentation for the following feature/API/tool. Include a brief overview, prerequisites, step-by-step usage instructions, and at least one code or usage example. Write for a developer audience who is unfamiliar with this specific tool but experienced generally.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "technical_readme_001",
+    "category": "technical_writing",
+    "subcategory": "readme",
+    "text": "Write a README file for the following project. Include a one-line description, installation steps, basic usage example, and a short section on how to contribute. Keep it scannable with clear headers.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "podcast_outline_001",
+    "category": "content_creation",
+    "subcategory": "podcast_outline",
+    "text": "Create an episode outline for a podcast on the given topic. Include a cold open hook, 3-4 main talking point segments with a rough time allocation, and suggested questions if this is an interview format.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "newsletter_001",
+    "category": "content_creation",
+    "subcategory": "newsletter",
+    "text": "Write a newsletter issue on the given topic/theme. Include a personal or engaging opening line, 2-3 main content sections, and a closing that feels like a sign-off rather than an abrupt stop. Match the tone to [brand voice].",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "survey_design_001",
+    "category": "research",
+    "subcategory": "survey_design",
+    "text": "Design a survey to gather feedback on [topic/product]. Write [N] questions, mixing question types (multiple choice, rating scale, open-ended), ordered to avoid leading bias, and ending with any necessary demographic questions.",
+    "best_models": [
+      "gpt-5",
+      "claude-sonnet-5"
+    ]
+  },
+  {
+    "id": "user_research_synthesis_001",
+    "category": "research",
+    "subcategory": "user_research_synthesis",
+    "text": "Synthesize the following set of user interview notes or feedback into key themes. Group similar feedback together, note how many respondents mentioned each theme, and highlight any surprising or contradictory findings.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "onboarding_flow_001",
+    "category": "ux_writing",
+    "subcategory": "onboarding_copy",
+    "text": "Write onboarding flow copy for [product] to guide a new user through their first [N] steps. Keep each step's copy short and action-oriented, explain the 'why' behind each step briefly, and avoid overwhelming the user with all features at once.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "error_message_001",
+    "category": "ux_writing",
+    "subcategory": "error_messages",
+    "text": "Write user-facing error messages for the following failure scenarios. Each should explain what went wrong in plain language, avoid blaming the user, and where possible suggest a next step to resolve it.",
+    "best_models": [
+      "claude-sonnet-5",
+      "gpt-5-mini"
+    ]
+  },
+  {
+    "id": "game_design_concept_001",
+    "category": "game_design",
+    "subcategory": "concept_design",
+    "text": "Develop a game concept based on the given theme or mechanic. Cover the core gameplay loop, win/lose conditions, target audience, and what makes it distinct from similar existing games.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "debate_argument_001",
+    "category": "argumentation",
+    "subcategory": "steelman",
+    "text": "Present the strongest possible argument for the given position, as its most thoughtful defenders would articulate it, even if the position is contested. After the argument, briefly note the main counterarguments without being asked, for balance.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  },
+  {
+    "id": "critique_creative_001",
+    "category": "feedback",
+    "subcategory": "creative_critique",
+    "text": "Critique the following creative work (writing/design/etc). Identify what's working well first, then areas for improvement, with specific and actionable suggestions rather than vague impressions. Be honest rather than only encouraging.",
+    "best_models": [
+      "claude-opus-4-8",
+      "gpt-5"
+    ]
+  }
+]

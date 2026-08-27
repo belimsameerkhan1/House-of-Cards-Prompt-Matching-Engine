@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+prompt_index.npz
+kb_index.npz
+venv/
+.venv/

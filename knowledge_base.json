@@ -1,0 +1,227 @@
+[
+  {
+    "id": "patent_3p_001",
+    "domain": "patent_law",
+    "topic": "Traditional knowledge exclusion from patents",
+    "text": "Section 3(p) of the Indian Patents Act, 1970 excludes from patentability any invention that is, in effect, traditional knowledge, or that is an aggregation or duplication of known properties of traditionally known components. This was written specifically to stop biopiracy claims over India's traditional medicine systems, including Ayurveda. Courts have applied this broadly: even combining single traditionally-known ingredients into a new mixture has been found non-patentable if each ingredient's use and property was already documented in traditional sources. Only genuine, non-obvious improvements over traditional formulations that meet novelty and inventive step requirements can be patented.",
+    "source_name": "Indian Patents Act, 1970 - Section 3(p); Madras High Court ruling on 'Panchagavya' lamp patent refusal",
+    "source_url": "https://www.ipindia.gov.in/writereaddata/Portal/IPOGuidelinesManuals/1_39_1_5-tk-guidelines.pdf",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "patent_tk_guidelines_001",
+    "domain": "patent_law",
+    "topic": "Patent office guidelines for traditional knowledge applications",
+    "text": "The Indian Patent Office's Guidelines for Processing of Patent Applications relating to Traditional Knowledge and Biological Material direct examiners to check TKDL and other prior art sources when a patent application involves biological material or traditional medicine ingredients. If a composition combines ingredients whose individual properties are already documented as having the same therapeutic use in traditional systems, the application will typically be rejected under Section 3(p), even without an exact prior formulation match, because combining known-effect ingredients for their known effect is considered non-inventive.",
+    "source_name": "Guidelines for Processing of Patent Applications relating to Traditional Knowledge and Biological Material, Indian Patent Office",
+    "source_url": "https://www.ipindia.gov.in/writereaddata/Portal/IPOGuidelinesManuals/1_39_1_5-tk-guidelines.pdf",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "patent_ayush_draft_001",
+    "domain": "patent_law",
+    "topic": "AYUSH draft guidelines on patentability",
+    "text": "Draft guidelines from the Ministry of AYUSH clarify that AYUSH-related inventions (covering Ayurveda, Yoga, Naturopathy, Unani, Siddha, Sowa-Rigpa, and Homoeopathy) must meet the same patentability standards as any other invention under the Patents Act: novelty, inventive step, and industrial applicability, while also clearing the Section 3 exclusions including the traditional-knowledge bar under 3(p). The scope identified for potential patent protection includes AYUSH products, equipment or devices used in AYUSH systems, and food recipes or nutraceuticals described within AYUSH systems, provided they meet standard patentability criteria and are not mere restatements of known traditional formulations.",
+    "source_name": "AYUSH Draft Guidelines on Traditional Knowledge & Innovation",
+    "source_url": "https://obhanmason.com/blog/indias-draft-guidelines-on-ayush-keep-traditional-knowledge-and-innovations-in-harmony/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "classification_phytopharma_001",
+    "domain": "product_classification",
+    "topic": "Definition of phytopharmaceutical drugs",
+    "text": "Under the Drugs and Cosmetics Rules (8th Amendment), 2015, a phytopharmaceutical drug is defined as a purified and standardized fraction of a plant or its part or extract, administered for specific therapeutic claims, and regulated as a new drug requiring quality, safety, and efficacy data comparable to a synthetic chemical drug. Unlike classical or proprietary Ayurvedic medicines, phytopharmaceuticals fall under the jurisdiction of the Central Drugs Standard Control Organization (CDSCO), not the Ministry of AYUSH, and must be manufactured under Good Manufacturing Practice standards (Schedule M).",
+    "source_name": "Drugs and Cosmetics Rules (8th Amendment), 2015; Rule 122E",
+    "source_url": "https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/New-Drugs/FAQs/New_Drugs_FAQs.doc",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "classification_ayush_vs_cdsco_001",
+    "domain": "product_classification",
+    "topic": "Regulatory split between AYUSH and CDSCO for herbal products",
+    "text": "India regulates plant-based medicinal products through two separate pathways. Classical Ayurvedic, Siddha, and Unani (ASU) formulations that follow recognized classical texts, as well as proprietary Ayurvedic medicines that are variations on classical principles, are regulated by the Ministry of AYUSH under separate provisions and do not require the same clinical trial data as new drugs. Phytopharmaceuticals, by contrast, are treated as new drugs under CDSCO and Rule 122E, requiring full scientific validation. A product must first be correctly classified into one of these categories, since the classification determines which regulator, which licensing pathway, and which evidentiary burden applies.",
+    "source_name": "Regulatory Prospects for Phytopharmaceuticals: Unlocking India's Potential",
+    "source_url": "https://jopcr.com/articles/regulatory-prospects-for-phytopharmaceuticals-unlocking-indias-potential",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "classification_proprietary_001",
+    "domain": "product_classification",
+    "topic": "Proprietary vs classical Ayurvedic medicine",
+    "text": "Proprietary Ayurvedic medicines differ from classical formulations in that they are not required to exactly match a formula described in a recognized classical text, but they must still comply with the safety and manufacturing norms applicable to Ayurvedic drugs. Since 2010, Rule 158(B) requires proof of effectiveness for licensing a patent or proprietary ASU medicine, and voluntary Good Clinical Practice guidelines exist for researchers conducting clinical trials on ASU medicines.",
+    "source_name": "Rule 158(B), Drugs and Cosmetics Rules; AYUSH GCP Guidelines",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4840792/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "abs_bda_overview_001",
+    "domain": "biodiversity_abs",
+    "topic": "Biological Diversity Act 2002 overview",
+    "text": "The Biological Diversity Act, 2002 implements India's obligations under the Convention on Biological Diversity and the Nagoya Protocol on Access and Benefit Sharing. It establishes a three-tier structure: the National Biodiversity Authority (NBA) at the central level, State Biodiversity Boards (SBBs), and local Biodiversity Management Committees (BMCs). The Act's core purpose is to ensure that anyone accessing India's biological resources or associated traditional knowledge for research or commercial use shares the resulting benefits fairly with the country and the communities that conserved the resource.",
+    "source_name": "The Biological Diversity Act, 2002",
+    "source_url": "https://www.legalbites.in/environment-law/the-biological-diversity-act-2002-overview-of-access-and-benefit-sharing-provisions-1128830",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "abs_approval_requirement_001",
+    "domain": "biodiversity_abs",
+    "topic": "When NBA approval is required",
+    "text": "Foreign individuals, foreign companies, and non-resident Indians must obtain prior approval from the National Biodiversity Authority before accessing Indian biological resources, before transferring research results on those resources to any non-Indian entity, and before applying for any intellectual property right (such as a patent) based on a biological resource obtained from India. Indian citizens and Indian companies are generally required to give prior intimation to the State Biodiversity Board rather than seek full NBA approval, though a 2018 Uttarakhand High Court ruling held that domestic entities are not entirely exempt from benefit-sharing obligations under the Act. Normally-traded commodities can be exempted from these requirements by government notification.",
+    "source_name": "Biological Diversity Act, 2002 - Sections 3, 4, 6, 7; NBA FAQ",
+    "source_url": "https://megbiodiversity.nic.in/sites/default/files/faq-biodiversity-act.pdf",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "abs_process_001",
+    "domain": "biodiversity_abs",
+    "topic": "Access and benefit sharing process",
+    "text": "The operational principle of Access and Benefit Sharing (ABS) under Indian law requires securing prior informed consent (PIC), finalizing mutually agreed terms (MATs), and ensuring fair and equitable benefit sharing before biological resources or associated traditional knowledge are accessed for research or commercial purposes. Any product developer sourcing plant material for an Ayurvedic or phytopharmaceutical product, especially from wild-harvested or region-specific biological resources, should assess whether ABS obligations apply before proceeding to product development or IP filing.",
+    "source_name": "National Biodiversity Authority - ABS Factsheet",
+    "source_url": "http://nbaindia.org/uploaded/pdf/ABS_Factsheets_1.pdf",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "tkdl_overview_001",
+    "domain": "traditional_knowledge",
+    "topic": "Purpose and function of TKDL",
+    "text": "The Traditional Knowledge Digital Library (TKDL) is a prior art database of Indian traditional knowledge established in 2001 by CSIR and the Ministry of AYUSH. It converts traditional medical knowledge documented in classical texts (in Sanskrit, Arabic, Persian, Tamil, Urdu, and other languages) into modern international languages (English, German, French, Japanese, Spanish) and classifies it for patent examiners worldwide. Its purpose is defensive: to prevent patent offices from mistakenly granting patents on traditional knowledge that already exists in the public domain, not to seek IP protection for that knowledge itself.",
+    "source_name": "CSIR - Traditional Knowledge Digital Library Unit",
+    "source_url": "https://www.csir.res.in/en/documents/tkdl",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "tkdl_access_001",
+    "domain": "traditional_knowledge",
+    "topic": "TKDL access and patent office agreements",
+    "text": "Access to the full TKDL database has historically been restricted to patent offices that have signed access agreements with India, including the US Patent and Trademark Office (USPTO), the European Patent Office (EPO), the UK Trademark & Patent Office (UKPTO), and Germany's DPMA, under strict confidentiality terms limiting use to search and examination only. TKDL has been credited with contributing to the rejection, withdrawal, or amendment of several hundred patent applications globally that would otherwise have claimed already-known traditional formulations as novel inventions. The Indian Cabinet has separately approved widening TKDL access to a broader set of users beyond patent offices.",
+    "source_name": "CSIR TKDL; Cabinet approval on widening TKDL access, PIB",
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1852528",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "tkdl_limitation_001",
+    "domain": "traditional_knowledge",
+    "topic": "Limitations of TKDL as prior art",
+    "text": "TKDL documents traditional knowledge that has already been written down in classical texts, but a significant portion of India's traditional knowledge exists only in oral, undocumented form and is therefore not searchable in TKDL. This means an absence of a match in TKDL does not, by itself, confirm that a claimed invention is genuinely novel - it may simply mean the relevant traditional knowledge was never documented in text form. Prior-art assessments for Ayurvedic or traditional-knowledge-based products should treat a TKDL search as necessary but not sufficient evidence of novelty.",
+    "source_name": "Traditional Knowledge Digital Library as Patent System Facilitator",
+    "source_url": "https://www.researchgate.net/publication/386237247_Traditional_Knowledge_Digital_Library_as_Patent_System_Facilitator",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "gi_trademark_overview_001",
+    "domain": "trademark_gi",
+    "topic": "Trademark protection for Ayurvedic brand names",
+    "text": "Ayurvedic product brand names, logos, and packaging can be protected under the Trade Marks Act, 1999, provided the mark is distinctive and not merely descriptive of the product's ingredients or effects (e.g. a generic Sanskrit term for the ailment treated may face objections on descriptiveness grounds). Trademark protection covers the brand identity and does not extend to the underlying formulation or ingredients, which are governed separately by patent and traditional-knowledge law.",
+    "source_name": "Trade Marks Act, 1999",
+    "source_url": "https://www.ipindia.gov.in/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "gi_overview_001",
+    "domain": "trademark_gi",
+    "topic": "Geographical Indication protection for regional Ayurvedic products",
+    "text": "Geographical Indications (GI), registered under the Geographical Indications of Goods (Registration and Protection) Act, 1999, protect products whose qualities or reputation are essentially attributable to their geographical origin. Several Ayurvedic and herbal products with strong regional association (for example, specific regional variants of traditional formulations or raw herbs cultivated in a particular area) may be eligible for GI registration, which protects the use of the place-name association rather than the formulation itself, and is typically pursued by producer associations or cooperatives rather than individual companies.",
+    "source_name": "Geographical Indications of Goods (Registration and Protection) Act, 1999",
+    "source_url": "https://www.ipindia.gov.in/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "international_overview_001",
+    "domain": "international_regulatory",
+    "topic": "International filing considerations for traditional-knowledge-based products",
+    "text": "When an Ayurveda-based product or formulation is intended for international markets, applicants should be aware that many jurisdictions (US, EU, and others) conduct their own novelty and prior-art examination and increasingly consult TKDL and equivalent databases during that process, particularly for patent applications. Separately, cosmetic and nutraceutical classifications differ significantly by jurisdiction - a product classified as a cosmetic in India may require drug-level evidence in another market, or vice versa - so classification should be reassessed per target jurisdiction rather than assumed to transfer directly from the Indian classification.",
+    "source_name": "General international IP practice guidance",
+    "source_url": "https://www.wipo.int/",
+    "jurisdiction": "International"
+  },
+  {
+    "id": "patent_2024_rules_001",
+    "domain": "patent_law",
+    "topic": "Patents (Amendment) Rules, 2024 - key procedural changes",
+    "text": "The Patents (Amendment) Rules, 2024, notified on 15 March 2024, changed several procedural timelines relevant to opposition and examination. Under amended Rule 55, where a pre-grant opposition raises a prima facie case, the applicant's reply window was reduced from three months to two months. Where the Controller finds no prima facie case, an order must issue within one month of notifying the opponent. Grounds for pre-grant opposition under Section 25(1) continue to include non-patentable subject matter under Sections 3 and 4 (which covers the traditional-knowledge exclusion under 3(p)), and separately, failure to disclose or wrongful disclosure of the source and geographical origin of biological material used in the invention, as required under Section 10(4).",
+    "source_name": "Patents (Amendment) Rules, 2024; Indian Patents Act Section 10(4), 25(1)",
+    "source_url": "https://www.intepat.com/blog/patent-law-in-india",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "patent_biological_disclosure_001",
+    "domain": "patent_law",
+    "topic": "Mandatory disclosure of biological material source and geographic origin",
+    "text": "Under Section 10(4) of the Indian Patents Act, where an invention uses biological material that cannot be fully described in words, the applicant must deposit the material with an international depository authority under the Budapest Treaty before the filing date, and must disclose the source and geographical origin of that material in the patent specification. Failure to disclose, or wrongful disclosure, of this source and origin is itself a valid ground for pre-grant opposition under Section 25(1)(j) - independent of whether the invention would otherwise be patentable. For an Ayurveda product using plant material sourced from a specific Indian region, this disclosure obligation applies regardless of the outcome of the Section 3(p) traditional-knowledge analysis.",
+    "source_name": "Indian Patents Act, 1970 - Section 10(4), 25(1)(j); Budapest Treaty (deposit of micro-organisms)",
+    "source_url": "https://www.intepat.com/blog/patent-law-in-india",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "biodiversity_2023_amendment_001",
+    "domain": "biodiversity_abs",
+    "topic": "Biological Diversity (Amendment) Act 2023 and 2024 Rules",
+    "text": "The Biological Diversity (Amendment) Act, 2023 and the Biological Diversity Rules, 2024 (notified 22 October 2024) updated India's ABS framework. A notable change is a newly introduced Section 6(1A), which now requires Indian entities (not only foreign ones) to register with the National Biodiversity Authority for inventions based on research or information pertaining to Indian biological resources, before a patent can be issued - closing a gap that previously let some domestic filings avoid ABS scrutiny under a stricter reading of Sections 3 vs 7. The 2023 amendment also redefined 'biological resources' and clarified treatment of 'value-added products' under Section 2.",
+    "source_name": "Biological Diversity (Amendment) Act, 2023; Biological Diversity Rules, 2024",
+    "source_url": "https://stratjuris.com/biodiversity-2/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "wipo_gratk_2024_001",
+    "domain": "international_regulatory",
+    "topic": "WIPO Treaty on IP, Genetic Resources and Associated Traditional Knowledge (2024)",
+    "text": "Adopted on 24 May 2024 after roughly 25 years of negotiation, the WIPO Treaty on Intellectual Property, Genetic Resources and Associated Traditional Knowledge (GRATK Treaty) creates the first binding international patent-disclosure requirement tied to traditional knowledge. It requires patent applicants, where a claimed invention is 'based on' a genetic resource or traditional knowledge associated with one, to disclose the country of origin of the resource and/or the indigenous or local community that provided the associated knowledge. A two-part test governs when disclosure is triggered: the resource or knowledge must have been necessary for the invention, and the invention must depend on the resource's or knowledge's specific properties. Failure to disclose can be sanctioned, but applicants get a chance to correct it, and (absent fraud) a patent cannot be revoked solely for non-disclosure. The treaty takes effect three months after 15 countries ratify it and is not retroactive - it will not apply to applications filed before it enters into force.",
+    "source_name": "WIPO Treaty on Intellectual Property, Genetic Resources and Associated Traditional Knowledge (2024)",
+    "source_url": "https://www.wipo.int/en/web/treaties/ip/gratk/summary_gratk",
+    "jurisdiction": "International"
+  },
+  {
+    "id": "copyright_idea_expression_001",
+    "domain": "copyright_designs",
+    "topic": "Copyright protection scope for Ayurvedic formulations and texts",
+    "text": "Under the Copyright Act, 1957, copyright protects the expression of an idea in a tangible, fixed form - not the idea itself. This means an Ayurvedic formulation, recipe, or method of treatment cannot be copyrighted as such; copyright can only attach to a specific original written description of it (e.g. a company's own written product literature, packaging text, or training manual), not to the underlying formulation, ingredient combination, or therapeutic method, which are excluded from copyright as 'ideas' or 'methods' and must instead be assessed under patent law (and its traditional-knowledge exclusions) if IP protection over the formulation itself is sought.",
+    "source_name": "Copyright Act, 1957; idea-expression dichotomy case law",
+    "source_url": "https://www.lexology.com/library/detail.aspx?g=fa3874bc-02d3-439a-87cf-a7bee78228ce",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "copyright_design_overlap_001",
+    "domain": "copyright_designs",
+    "topic": "When copyright in packaging/artwork is lost to the Designs Act",
+    "text": "Under Section 15(2) of the Copyright Act, 1957, copyright in an artistic work (such as product packaging artwork) ceases to exist once the work has been reproduced more than 50 times through an industrial process, if that work was also capable of being registered as a design under the Designs Act, 2000 but was not registered. This is directly relevant to Ayurvedic product packaging and labels: a company relying on copyright alone for mass-produced packaging design risks losing that protection once the 50-copy threshold is crossed, and should register the packaging design separately under the Designs Act if long-term protection is intended. Labels themselves have been held by courts to be excluded from the definition of 'design' in some circumstances, but packaging shapes/cartons can qualify for design registration.",
+    "source_name": "Copyright Act, 1957 - Section 15(2); Designs Act, 2000",
+    "source_url": "https://hiredesigners.in/copyright-vs-design-rights-in-india-what-the-supreme-court-just-clarified-for-creators-and-designers/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "designs_act_overview_001",
+    "domain": "copyright_designs",
+    "topic": "Designs Act, 2000 - what it protects",
+    "text": "The Designs Act, 2000 protects the visual appearance of a product - its shape, configuration, pattern, ornamentation, or composition of lines and colors - judged solely by the eye, not its functional aspects. For Ayurvedic products, this covers bottle shapes, container designs, and distinctive packaging forms, but not the formulation, ingredients, or therapeutic function. Registration is mandatory to claim protection (unlike copyright, which arises automatically), lasts an initial 10 years extendable to 15, and is classified using the Locarno classification system. India is also a member of the Hague Agreement, allowing a single international design filing to seek protection in multiple member countries.",
+    "source_name": "Designs Act, 2000; Designs Rules, 2001; Hague Agreement",
+    "source_url": "https://thelegalschool.in/blog/design-act-2000",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "plant_variety_ppvfr_001",
+    "domain": "plant_variety",
+    "topic": "Protection of Plant Varieties and Farmers' Rights Act, 2001",
+    "text": "India protects plant varieties through a sui generis system under the Protection of Plant Varieties and Farmers' Rights (PPVFR) Act, 2001, rather than through patents (which India's Patents Act excludes plant varieties from) or through joining UPOV 1991. This choice was deliberate: it lets India recognize both plant breeders' commercial rights and farmers' traditional rights to save, use, share, and even sell (though not for branded commercial marketing) farm-saved seed. Importantly for Ayurveda, the Act allows registration of 'farmers' varieties' and 'extant varieties' - which can include traditionally cultivated medicinal plant varieties with documented properties (e.g. specific rice varieties historically used for particular ailments) - not just newly bred varieties. This is directly relevant when an Ayurveda product relies on a specific traditionally-grown plant variety rather than a generic species.",
+    "source_name": "Protection of Plant Varieties and Farmers' Rights Act, 2001",
+    "source_url": "https://sustainability.shiksha/ecosystem-natural-resources/india-plant-varieties-farmers-rights-act/",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "fssai_ayurveda_aahar_001",
+    "domain": "food_regulatory",
+    "topic": "FSSAI Ayurveda Aahara Regulations, 2022",
+    "text": "The Food Safety and Standards (Ayurveda Aahara) Regulations, 2022, notified 5 May 2022, created a distinct FSSAI category for food prepared according to recipes, ingredients, or processes described in authoritative Ayurvedic texts listed in the regulation's Schedule A. This category explicitly excludes Ayurvedic drugs, proprietary Ayurvedic medicines, cosmetics, narcotic/psychotropic substances, metal-based Ayurvedic preparations (bhasma/pishti), and herbs listed under Schedule E-1 of the Drugs and Cosmetics Rules - meaning a product classified as Ayurveda Aahara cannot simultaneously be marketed as a medicine. Products in this category require FSSAI licensing, must display a dedicated 'Ayurveda Aahara' logo and a 'only for dietary use' warning, and critically, are prohibited from claiming to prevent, treat, or cure any human disease in their labelling, presentation, or advertising - health-benefit claims are only permitted without prior approval if supported by an authoritative Ayurvedic text; disease-risk-reduction claims require separate evidence-based approval from FSSAI.",
+    "source_name": "Food Safety and Standards (Ayurveda Aahara) Regulations, 2022",
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1846185",
+    "jurisdiction": "India"
+  },
+  {
+    "id": "drugs_magic_remedies_001",
+    "domain": "advertising_regulatory",
+    "topic": "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+    "text": "This Act prohibits advertisements claiming that a drug or remedy has magical properties to cure, diagnose, prevent, or mitigate disease, and separately restricts advertising for products claiming to induce miscarriage, prevent conception, enhance sexual capacity, correct menstrual disorders, or treat any disease listed in the Act's schedule, unless specific exceptions apply. This is a recurring compliance risk for Ayurvedic and herbal product marketing: government advisories have repeatedly warned television channels and manufacturers against advertising unlicensed Ayurvedic/herbal products with disease-cure claims, with enforcement action taken jointly under this Act and the Drugs and Cosmetics Act, 1940 in cases involving false therapeutic claims (for example, unsubstantiated COVID-19 cure claims). This Act applies independently of, and in addition to, the disease-claim restrictions found in FSSAI's Ayurveda Aahara regulations and AYUSH drug-labelling rules - a product can be simultaneously non-compliant under multiple statutes if it makes an unsupported cure claim.",
+    "source_name": "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+    "source_url": "https://en.wikipedia.org/wiki/Drugs_and_Magic_Remedies_(Objectionable_Advertisements)_Act,_1954",
+    "jurisdiction": "India"
+  }
+]
