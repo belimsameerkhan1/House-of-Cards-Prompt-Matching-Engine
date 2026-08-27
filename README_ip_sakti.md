@@ -1,4 +1,4 @@
-# IP-SAKTI Sahayak — House of Cards Extension
+# IP-SAKTI Sahayak — House of Cards Edition
 
 This extension adds **Component 1 (Domain Knowledge Base)** and **Component 2 (Ayurveda Product Classification Agent)** to the existing **House of Cards Prompt-Matching Engine** for **SIH Problem Statement #29 — IP-SAKTI Sahayak**.
 
